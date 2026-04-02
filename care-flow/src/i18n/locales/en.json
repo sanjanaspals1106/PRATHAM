@@ -1,0 +1,96 @@
+{
+  "common": {
+    "appName": "Vital Edge",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "export": "Export",
+    "confirm": "Confirm"
+  },
+  "patient": {
+    "info": "Patient Information",
+    "name": "Name",
+    "age": "Age",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other"
+  },
+  "vitals": {
+    "title": "Vitals",
+    "bp": "Blood Pressure",
+    "bpSystolic": "BP (Systolic)",
+    "bpDiastolic": "BP (Diastolic)",
+    "pulse": "Pulse",
+    "temperature": "Temperature",
+    "spo2": "SpO₂",
+    "respiratoryRate": "Respiratory Rate"
+  },
+  "symptoms": {
+    "title": "Symptoms",
+    "chestPain": "Chest Pain",
+    "breathlessness": "Breathlessness",
+    "bleeding": "Bleeding",
+    "unconscious": "Unconscious",
+    "seizure": "Seizure",
+    "fever": "Fever",
+    "abdomenPain": "Abdominal Pain",
+    "trauma": "Trauma",
+    "other": "Other Symptoms"
+  },
+  "priority": {
+    "critical": "Critical",
+    "moderate": "Moderate",
+    "stable": "Stable",
+    "level": "Priority Level",
+    "confidence": "Confidence"
+  },
+  "mode": {
+    "hospital": "Hospital Mode",
+    "ambulance": "Ambulance Mode",
+    "hospitalDesc": "Complete patient assessment",
+    "ambulanceDesc": "Fast-track emergency pre-triage",
+    "eta": "Estimated Time of Arrival (ETA)",
+    "etaMinutes": "minutes"
+  },
+  "explainability": {
+    "title": "AI Decision Transparency",
+    "reasoning": "Why this priority?",
+    "whyNotRed": "Why not CRITICAL?",
+    "whyNotGreen": "Why not STABLE?",
+    "biasNote": "Ethics & Fairness Statement"
+  },
+  "risk": {
+    "title": "Risk Assessment & Preparation",
+    "deterioration": "Deterioration Risk Level",
+    "high": "HIGH RISK",
+    "medium": "MEDIUM RISK",
+    "low": "LOW RISK",
+    "timeframe": "Expected timeframe",
+    "indicators": "Risk Indicators",
+    "preparation": "Hospital Preparation Checklist"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "totalToday": "Total Today",
+    "avgConfidence": "Avg Confidence",
+    "highRisk": "High Risk",
+    "ambulanceMode": "Ambulance Mode",
+    "distribution": "Priority Distribution",
+    "recentEntries": "Recent Entries",
+    "newTriage": "New Triage",
+    "exportCSV": "Export CSV"
+  },
+  "actions": {
+    "runTriage": "Run Triage",
+    "analyzing": "Analyzing…",
+    "override": "Override Priority",
+    "confirmSave": "Confirm & Go to Dashboard",
+    "saved": "Saved",
+    "overrideReason": "Reason for Override",
+    "saveOverride": "Save Override"
+  }
+}

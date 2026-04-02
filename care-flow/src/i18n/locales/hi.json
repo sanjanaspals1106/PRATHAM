@@ -1,0 +1,96 @@
+{
+  "common": {
+    "appName": "वाइटल एज",
+    "submit": "जमा करें",
+    "cancel": "रद्द करें",
+    "save": "सहेजें",
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "retry": "पुनः प्रयास करें",
+    "export": "निर्यात करें",
+    "confirm": "पुष्टि करें"
+  },
+  "patient": {
+    "info": "रोगी की जानकारी",
+    "name": "नाम",
+    "age": "आयु",
+    "gender": "लिंग",
+    "male": "पुरुष",
+    "female": "महिला",
+    "other": "अन्य"
+  },
+  "vitals": {
+    "title": "महत्वपूर्ण संकेत",
+    "bp": "रक्तचाप",
+    "bpSystolic": "बीपी (सिस्टोलिक)",
+    "bpDiastolic": "बीपी (डायस्टोलिक)",
+    "pulse": "नाड़ी",
+    "temperature": "तापमान",
+    "spo2": "SpO₂",
+    "respiratoryRate": "श्वसन दर"
+  },
+  "symptoms": {
+    "title": "लक्षण",
+    "chestPain": "सीने में दर्द",
+    "breathlessness": "सांस लेने में कठिनाई",
+    "bleeding": "रक्तस्राव",
+    "unconscious": "बेहोश",
+    "seizure": "दौरा",
+    "fever": "बुखार",
+    "abdomenPain": "पेट दर्द",
+    "trauma": "चोट",
+    "other": "अन्य लक्षण"
+  },
+  "priority": {
+    "critical": "गंभीर",
+    "moderate": "मध्यम",
+    "stable": "स्थिर",
+    "level": "प्राथमिकता स्तर",
+    "confidence": "विश्वास"
+  },
+  "mode": {
+    "hospital": "अस्पताल मोड",
+    "ambulance": "एंबुलेंस मोड",
+    "hospitalDesc": "पूर्ण रोगी मूल्यांकन",
+    "ambulanceDesc": "तीव्र आपातकालीन पूर्व-ट्रायज",
+    "eta": "अनुमानित आगमन समय (ETA)",
+    "etaMinutes": "मिनट"
+  },
+  "explainability": {
+    "title": "AI निर्णय पारदर्शिता",
+    "reasoning": "यह प्राथमिकता क्यों?",
+    "whyNotRed": "गंभीर क्यों नहीं?",
+    "whyNotGreen": "स्थिर क्यों नहीं?",
+    "biasNote": "नैतिकता और निष्पक्षता कथन"
+  },
+  "risk": {
+    "title": "जोखिम मूल्यांकन और तैयारी",
+    "deterioration": "बिगड़ने का जोखिम स्तर",
+    "high": "उच्च जोखिम",
+    "medium": "मध्यम जोखिम",
+    "low": "कम जोखिम",
+    "timeframe": "अनुमानित समयसीमा",
+    "indicators": "जोखिम संकेतक",
+    "preparation": "अस्पताल तैयारी सूची"
+  },
+  "dashboard": {
+    "title": "डैशबोर्ड",
+    "totalToday": "आज कुल",
+    "avgConfidence": "औसत विश्वास",
+    "highRisk": "उच्च जोखिम",
+    "ambulanceMode": "एंबुलेंस मोड",
+    "distribution": "प्राथमिकता वितरण",
+    "recentEntries": "हाल की प्रविष्टियाँ",
+    "newTriage": "नया ट्रायज",
+    "exportCSV": "CSV निर्यात करें"
+  },
+  "actions": {
+    "runTriage": "ट्रायज चलाएं",
+    "analyzing": "विश्लेषण हो रहा है…",
+    "override": "प्राथमिकता ओवरराइड करें",
+    "confirmSave": "पुष्टि करें और डैशबोर्ड पर जाएं",
+    "saved": "सहेजा गया",
+    "overrideReason": "ओवरराइड का कारण",
+    "saveOverride": "ओवरराइड सहेजें"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "common": {
+    "appName": "వైటల్ ఎడ్జ్",
+    "submit": "సమర్పించండి",
+    "cancel": "రద్దు చేయండి",
+    "save": "సేవ్ చేయండి",
+    "loading": "లోడ్ అవుతోంది...",
+    "error": "లోపం",
+    "retry": "మళ్లీ ప్రయత్నించండి",
+    "export": "ఎగుమతి చేయండి",
+    "confirm": "నిర్ధారించండి"
+  },
+  "patient": {
+    "info": "రోగి సమాచారం",
+    "name": "పేరు",
+    "age": "వయస్సు",
+    "gender": "లింగం",
+    "male": "పురుషుడు",
+    "female": "స్త్రీ",
+    "other": "ఇతరులు"
+  },
+  "vitals": {
+    "title": "ముఖ్యమైన సంకేతాలు",
+    "bp": "రక్తపోటు",
+    "bpSystolic": "BP (సిస్టోలిక్)",
+    "bpDiastolic": "BP (డయాస్టోలిక్)",
+    "pulse": "నాడి",
+    "temperature": "ఉష్ణోగ్రత",
+    "spo2": "SpO₂",
+    "respiratoryRate": "శ్వాస రేటు"
+  },
+  "symptoms": {
+    "title": "లక్షణాలు",
+    "chestPain": "ఛాతీ నొప్పి",
+    "breathlessness": "ఊపిరి ఆడకపోవడం",
+    "bleeding": "రక్తస్రావం",
+    "unconscious": "స్పృహ లేని",
+    "seizure": "మూర్ఛ",
+    "fever": "జ్వరం",
+    "abdomenPain": "కడుపు నొప్పి",
+    "trauma": "గాయం",
+    "other": "ఇతర లక్షణాలు"
+  },
+  "priority": {
+    "critical": "తీవ్రమైన",
+    "moderate": "మధ్యస్థ",
+    "stable": "స్థిరమైన",
+    "level": "ప్రాధాన్యత స్థాయి",
+    "confidence": "విశ్వాసం"
+  },
+  "mode": {
+    "hospital": "ఆసుపత్రి మోడ్",
+    "ambulance": "అంబులెన్స్ మోడ్",
+    "hospitalDesc": "పూర్తి రోగి అంచనా",
+    "ambulanceDesc": "త్వరిత అత్యవసర ప్రీ-ట్రయాజ్",
+    "eta": "అంచనా రాక సమయం (ETA)",
+    "etaMinutes": "నిమిషాలు"
+  },
+  "explainability": {
+    "title": "AI నిర్ణయ పారదర్శకత",
+    "reasoning": "ఈ ప్రాధాన్యత ఎందుకు?",
+    "whyNotRed": "తీవ్రమైనది ఎందుకు కాదు?",
+    "whyNotGreen": "స్థిరమైనది ఎందుకు కాదు?",
+    "biasNote": "నైతికత మరియు న్యాయ ప్రకటన"
+  },
+  "risk": {
+    "title": "ప్రమాద అంచనా మరియు సిద్ధతలు",
+    "deterioration": "క్షీణత ప్రమాద స్థాయి",
+    "high": "అధిక ప్రమాదం",
+    "medium": "మధ్యస్థ ప్రమాదం",
+    "low": "తక్కువ ప్రమాదం",
+    "timeframe": "అంచనా కాల వ్యవధి",
+    "indicators": "ప్రమాద సూచికలు",
+    "preparation": "ఆసుపత్రి సిద్ధత జాబితా"
+  },
+  "dashboard": {
+    "title": "డాష్‌బోర్డ్",
+    "totalToday": "ఈరోజు మొత్తం",
+    "avgConfidence": "సగటు విశ్వాసం",
+    "highRisk": "అధిక ప్రమాదం",
+    "ambulanceMode": "అంబులెన్స్ మోడ్",
+    "distribution": "ప్రాధాన్యత పంపిణీ",
+    "recentEntries": "ఇటీవలి ఎంట్రీలు",
+    "newTriage": "కొత్త ట్రయాజ్",
+    "exportCSV": "CSV ఎగుమతి చేయండి"
+  },
+  "actions": {
+    "runTriage": "ట్రయాజ్ అమలు చేయండి",
+    "analyzing": "విశ్లేషిస్తోంది…",
+    "override": "ప్రాధాన్యత ఓవర్‌రైడ్ చేయండి",
+    "confirmSave": "నిర్ధారించండి మరియు డాష్‌బోర్డ్‌కు వెళ్లండి",
+    "saved": "సేవ్ చేయబడింది",
+    "overrideReason": "ఓవర్‌రైడ్ కారణం",
+    "saveOverride": "ఓవర్‌రైడ్ సేవ్ చేయండి"
+  }
+}
