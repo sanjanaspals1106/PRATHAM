@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" font-family="'Segoe UI', Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="1000" height="680" fill="#0f172a" rx="16"/>
+
+  <!-- Title -->
+  <text x="500" y="44" text-anchor="middle" font-size="22" font-weight="700" fill="#f8fafc" letter-spacing="1">Pratham — System Architecture</text>
+  <text x="500" y="64" text-anchor="middle" font-size="12" fill="#94a3b8">AI Triage System for Emergency Departments</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- LAYER 1: USERS -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <text x="60" y="105" font-size="10" font-weight="600" fill="#64748b" letter-spacing="2">USERS</text>
+
+  <!-- Nurse -->
+  <rect x="60" y="112" width="110" height="52" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="115" y="133" text-anchor="middle" font-size="18">👩‍⚕️</text>
+  <text x="115" y="153" text-anchor="middle" font-size="11" fill="#cbd5e1">Nurse / Doctor</text>
+
+  <!-- Paramedic -->
+  <rect x="195" y="112" width="110" height="52" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="250" y="133" text-anchor="middle" font-size="18">🚑</text>
+  <text x="250" y="153" text-anchor="middle" font-size="11" fill="#cbd5e1">Paramedic</text>
+
+  <!-- Admin -->
+  <rect x="330" y="112" width="110" height="52" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="385" y="133" text-anchor="middle" font-size="18">📊</text>
+  <text x="385" y="153" text-anchor="middle" font-size="11" fill="#cbd5e1">Administrator</text>
+
+  <!-- Arrow users → frontend -->
+  <line x1="230" y1="164" x2="230" y2="194" stroke="#475569" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arr)"/>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- LAYER 2: FRONTEND -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <text x="60" y="212" font-size="10" font-weight="600" fill="#64748b" letter-spacing="2">FRONTEND — React 18 + TypeScript + Vite  (localhost:8080)</text>
+
+  <!-- Frontend container -->
+  <rect x="60" y="220" width="880" height="130" rx="12" fill="#0f2942" stroke="#1d4ed8" stroke-width="1.5"/>
+
+  <!-- Pages -->
+  <rect x="80" y="238" width="130" height="96" rx="8" fill="#1e3a5f" stroke="#2563eb" stroke-width="1"/>
+  <text x="145" y="256" text-anchor="middle" font-size="10" font-weight="700" fill="#93c5fd">PAGES</text>
+  <text x="145" y="274" text-anchor="middle" font-size="10" fill="#bfdbfe">TriageInput.tsx</text>
+  <text x="145" y="290" text-anchor="middle" font-size="10" fill="#bfdbfe">TriageResult.tsx</text>
+  <text x="145" y="306" text-anchor="middle" font-size="10" fill="#bfdbfe">Dashboard.tsx</text>
+  <text x="145" y="322" text-anchor="middle" font-size="10" fill="#bfdbfe">NotFound.tsx</text>
+
+  <!-- Components -->
+  <rect x="230" y="238" width="160" height="96" rx="8" fill="#1e3a5f" stroke="#2563eb" stroke-width="1"/>
+  <text x="310" y="256" text-anchor="middle" font-size="10" font-weight="700" fill="#93c5fd">COMPONENTS</text>
+  <text x="310" y="274" text-anchor="middle" font-size="10" fill="#bfdbfe">ExplainabilityPanel</text>
+  <text x="310" y="290" text-anchor="middle" font-size="10" fill="#bfdbfe">RiskAssessmentCard</text>
+  <text x="310" y="306" text-anchor="middle" font-size="10" fill="#bfdbfe">AmbulanceModeToggle</text>
+  <text x="310" y="322" text-anchor="middle" font-size="10" fill="#bfdbfe">AppHeader · VitalInput</text>
+
+  <!-- i18n -->
+  <rect x="410" y="238" width="130" height="96" rx="8" fill="#1e3a5f" stroke="#2563eb" stroke-width="1"/>
+  <text x="475" y="256" text-anchor="middle" font-size="10" font-weight="700" fill="#93c5fd">i18n</text>
+  <text x="475" y="276" text-anchor="middle" font-size="12">🇬🇧 English</text>
+  <text x="475" y="296" text-anchor="middle" font-size="12">🇮🇳 Hindi</text>
+  <text x="475" y="316" text-anchor="middle" font-size="12">🇮🇳 Telugu</text>
+
+  <!-- State & Routing -->
+  <rect x="560" y="238" width="150" height="96" rx="8" fill="#1e3a5f" stroke="#2563eb" stroke-width="1"/>
+  <text x="635" y="256" text-anchor="middle" font-size="10" font-weight="700" fill="#93c5fd">STATE &amp; ROUTING</text>
+  <text x="635" y="274" text-anchor="middle" font-size="10" fill="#bfdbfe">React Router v6</text>
+  <text x="635" y="290" text-anchor="middle" font-size="10" fill="#bfdbfe">TanStack Query</text>
+  <text x="635" y="306" text-anchor="middle" font-size="10" fill="#bfdbfe">Axios + Interceptors</text>
+  <text x="635" y="322" text-anchor="middle" font-size="10" fill="#bfdbfe">Priority Mapper</text>
+
+  <!-- UI -->
+  <rect x="730" y="238" width="190" height="96" rx="8" fill="#1e3a5f" stroke="#2563eb" stroke-width="1"/>
+  <text x="825" y="256" text-anchor="middle" font-size="10" font-weight="700" fill="#93c5fd">UI LAYER</text>
+  <text x="825" y="274" text-anchor="middle" font-size="10" fill="#bfdbfe">Tailwind CSS</text>
+  <text x="825" y="290" text-anchor="middle" font-size="10" fill="#bfdbfe">shadcn/ui Components</text>
+  <text x="825" y="306" text-anchor="middle" font-size="10" fill="#bfdbfe">Recharts (Dashboard)</text>
+  <text x="825" y="322" text-anchor="middle" font-size="10" fill="#bfdbfe">Lucide React Icons</text>
+
+  <!-- Arrow frontend → backend -->
+  <line x1="500" y1="350" x2="500" y2="385" stroke="#475569" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arr)"/>
+  <text x="520" y="372" font-size="9" fill="#64748b">HTTP / REST</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- LAYER 3: BACKEND -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <text x="60" y="403" font-size="10" font-weight="600" fill="#64748b" letter-spacing="2">BACKEND — Node.js + Express + TypeScript  (localhost:3000)</text>
+
+  <!-- Backend container -->
+  <rect x="60" y="410" width="880" height="150" rx="12" fill="#0f2b1a" stroke="#16a34a" stroke-width="1.5"/>
+
+  <!-- API Routes -->
+  <rect x="80" y="428" width="155" height="116" rx="8" fill="#14532d" stroke="#22c55e" stroke-width="1"/>
+  <text x="157" y="446" text-anchor="middle" font-size="10" font-weight="700" fill="#86efac">API ROUTES</text>
+  <text x="157" y="464" text-anchor="middle" font-size="9" fill="#bbf7d0">POST /api/triage</text>
+  <text x="157" y="480" text-anchor="middle" font-size="9" fill="#bbf7d0">GET  /api/triage/:id</text>
+  <text x="157" y="496" text-anchor="middle" font-size="9" fill="#bbf7d0">POST /api/triage/:id/override</text>
+  <text x="157" y="512" text-anchor="middle" font-size="9" fill="#bbf7d0">GET  /api/dashboard/summary</text>
+  <text x="157" y="528" text-anchor="middle" font-size="9" fill="#bbf7d0">GET  /api/export/csv</text>
+  <text x="157" y="544" text-anchor="middle" font-size="9" fill="#bbf7d0">GET  /api/audit-logs</text>
+
+  <!-- Triage Engine -->
+  <rect x="255" y="428" width="145" height="116" rx="8" fill="#14532d" stroke="#22c55e" stroke-width="1"/>
+  <text x="327" y="446" text-anchor="middle" font-size="10" font-weight="700" fill="#86efac">AI TRIAGE ENGINE</text>
+  <text x="327" y="464" text-anchor="middle" font-size="9" fill="#bbf7d0">Vital Signs Scoring</text>
+  <text x="327" y="480" text-anchor="middle" font-size="9" fill="#bbf7d0">Symptom Scoring</text>
+  <text x="327" y="496" text-anchor="middle" font-size="9" fill="#bbf7d0">RED Flag Detection</text>
+  <text x="327" y="512" text-anchor="middle" font-size="9" fill="#bbf7d0">Priority: RED/YEL/GRN</text>
+  <text x="327" y="528" text-anchor="middle" font-size="9" fill="#bbf7d0">Confidence: 70–98%</text>
+  <text x="327" y="544" text-anchor="middle" font-size="9" fill="#bbf7d0">Score 0–100 pts</text>
+
+  <!-- Explainability -->
+  <rect x="420" y="428" width="145" height="116" rx="8" fill="#14532d" stroke="#22c55e" stroke-width="1"/>
+  <text x="492" y="446" text-anchor="middle" font-size="10" font-weight="700" fill="#86efac">EXPLAINABILITY</text>
+  <text x="492" y="464" text-anchor="middle" font-size="9" fill="#bbf7d0">Reasoning Generator</text>
+  <text x="492" y="480" text-anchor="middle" font-size="9" fill="#bbf7d0">Why not CRITICAL?</text>
+  <text x="492" y="496" text-anchor="middle" font-size="9" fill="#bbf7d0">Why not STABLE?</text>
+  <text x="492" y="512" text-anchor="middle" font-size="9" fill="#bbf7d0">Bias Transparency</text>
+  <text x="492" y="528" text-anchor="middle" font-size="9" fill="#bbf7d0">Ethics Statement</text>
+
+  <!-- Risk Assessment -->
+  <rect x="585" y="428" width="145" height="116" rx="8" fill="#14532d" stroke="#22c55e" stroke-width="1"/>
+  <text x="657" y="446" text-anchor="middle" font-size="10" font-weight="700" fill="#86efac">RISK ASSESSMENT</text>
+  <text x="657" y="464" text-anchor="middle" font-size="9" fill="#bbf7d0">Deterioration: H/M/L</text>
+  <text x="657" y="480" text-anchor="middle" font-size="9" fill="#bbf7d0">Timeframe: 5min–2hr</text>
+  <text x="657" y="496" text-anchor="middle" font-size="9" fill="#bbf7d0">Risk Indicators</text>
+  <text x="657" y="512" text-anchor="middle" font-size="9" fill="#bbf7d0">Prep Checklists</text>
+  <text x="657" y="528" text-anchor="middle" font-size="9" fill="#bbf7d0">Team Alerts</text>
+
+  <!-- Audit & Export -->
+  <rect x="750" y="428" width="170" height="116" rx="8" fill="#14532d" stroke="#22c55e" stroke-width="1"/>
+  <text x="835" y="446" text-anchor="middle" font-size="10" font-weight="700" fill="#86efac">AUDIT &amp; EXPORT</text>
+  <text x="835" y="464" text-anchor="middle" font-size="9" fill="#bbf7d0">Winston Logger</text>
+  <text x="835" y="480" text-anchor="middle" font-size="9" fill="#bbf7d0">Audit Trail (Supabase)</text>
+  <text x="835" y="496" text-anchor="middle" font-size="9" fill="#bbf7d0">CSV Exporter</text>
+  <text x="835" y="512" text-anchor="middle" font-size="9" fill="#bbf7d0">Zod Validation</text>
+  <text x="835" y="528" text-anchor="middle" font-size="9" fill="#bbf7d0">Error Middleware</text>
+
+  <!-- Arrow backend → database -->
+  <line x1="500" y1="560" x2="500" y2="592" stroke="#475569" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arr)"/>
+  <text x="516" y="580" font-size="9" fill="#64748b">Supabase JS</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- LAYER 4: DATABASE -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <text x="60" y="611" font-size="10" font-weight="600" fill="#64748b" letter-spacing="2">DATABASE — Supabase · PostgreSQL · Row Level Security</text>
+
+  <!-- DB container -->
+  <rect x="60" y="618" width="880" height="50" rx="12" fill="#1a0a2e" stroke="#7c3aed" stroke-width="1.5"/>
+
+  <!-- triage_records -->
+  <rect x="100" y="628" width="330" height="30" rx="6" fill="#2e1065" stroke="#7c3aed" stroke-width="1"/>
+  <text x="115" y="647" font-size="10" font-weight="700" fill="#c4b5fd">triage_records</text>
+  <text x="255" y="647" font-size="9" fill="#ddd6fe">  patient · vitals · symptoms · priority · score · explainability · risk · mode · override</text>
+
+  <!-- audit_logs -->
+  <rect x="460" y="628" width="230" height="30" rx="6" fill="#2e1065" stroke="#7c3aed" stroke-width="1"/>
+  <text x="475" y="647" font-size="10" font-weight="700" fill="#c4b5fd">audit_logs</text>
+  <text x="565" y="647" font-size="9" fill="#ddd6fe">  action · triage_id · details · operator</text>
+
+  <!-- health -->
+  <rect x="720" y="628" width="200" height="30" rx="6" fill="#2e1065" stroke="#7c3aed" stroke-width="1"/>
+  <text x="735" y="647" font-size="10" font-weight="700" fill="#c4b5fd">GET /health</text>
+  <text x="810" y="647" font-size="9" fill="#ddd6fe">  status · timestamp · version</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- LEGEND -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <rect x="680" y="90" width="260" height="100" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="810" y="108" text-anchor="middle" font-size="10" font-weight="700" fill="#94a3b8">LEGEND</text>
+  <rect x="700" y="116" width="14" height="10" rx="2" fill="#1d4ed8"/>
+  <text x="720" y="125" font-size="10" fill="#cbd5e1">Frontend (React)</text>
+  <rect x="700" y="133" width="14" height="10" rx="2" fill="#16a34a"/>
+  <text x="720" y="142" font-size="10" fill="#cbd5e1">Backend (Node/Express)</text>
+  <rect x="700" y="150" width="14" height="10" rx="2" fill="#7c3aed"/>
+  <text x="720" y="159" font-size="10" fill="#cbd5e1">Database (Supabase)</text>
+  <line x1="700" y1="169" x2="730" y2="169" stroke="#475569" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="737" y="173" font-size="10" fill="#cbd5e1">Data Flow</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- ARROW MARKER -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#475569"/>
+    </marker>
+  </defs>
+
+</svg>

@@ -13,8 +13,16 @@ import auditRoutes from './routes/audit.routes';
 const app: Application = express();
 
 // Middleware
+const allowedOrigins = env.CORS_ORIGIN.split(',').map(o => o.trim());
 app.use(cors({
-  origin: env.CORS_ORIGIN,
+  origin: (origin, callback) => {
+    // Allow requests with no origin (e.g. curl, Postman)
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.some(allowed => origin.startsWith(allowed))) {
+      return callback(null, true);
+    }
+    callback(new Error(`CORS: origin ${origin} not allowed`));
+  },
   credentials: true,
 }));
 
@@ -51,14 +59,15 @@ app.use('/api/audit-logs', auditRoutes);
 app.use(notFoundHandler);
 app.use(errorHandler);
 
-// Start server
-const PORT = env.PORT;
-
-app.listen(PORT, () => {
-  logger.info(`🚀 Pratham Backend running on port ${PORT}`);
-  logger.info(`📊 Environment: ${env.NODE_ENV}`);
-  logger.info(`🔗 CORS enabled for: ${env.CORS_ORIGIN}`);
-  logger.info(`🏥 Pratham ready`);
-});
+// Start server only when running locally (not in Vercel serverless)
+if (process.env.VERCEL !== '1') {
+  const PORT = env.PORT;
+  app.listen(PORT, () => {
+    logger.info(`🚀 Pratham Backend running on port ${PORT}`);
+    logger.info(`📊 Environment: ${env.NODE_ENV}`);
+    logger.info(`🔗 CORS enabled for: ${env.CORS_ORIGIN}`);
+    logger.info(`🏥 Pratham ready`);
+  });
+}
 
 export default app;
