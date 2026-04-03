@@ -1,4 +1,4 @@
-# Vital Edge - AI-Powered Triage System
+# Pratham - AI-Powered Triage System
 
 A production-ready AI triage system for emergency departments with explainable AI, risk assessment, and multilingual support.
 

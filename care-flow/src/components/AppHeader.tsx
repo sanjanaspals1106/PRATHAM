@@ -1,4 +1,4 @@
-import { Activity, WifiOff } from 'lucide-react';
+import { HeartPulse, WifiOff } from 'lucide-react';
 import { useNavigate, useLocation } from 'react-router-dom';
 
 const AppHeader = () => {
@@ -15,11 +15,11 @@ const AppHeader = () => {
     <header className="bg-surface-elevated border-b border-border px-4 py-3 flex items-center justify-between sticky top-0 z-50">
       <div className="flex items-center gap-3">
         <div className="bg-primary rounded-lg p-2">
-          <Activity size={20} className="text-primary-foreground" />
+          <HeartPulse size={20} className="text-primary-foreground" />
         </div>
         <div>
-          <h1 className="text-lg font-bold text-foreground leading-tight">AI Triage Optimizer</h1>
-          <p className="text-xs text-muted-foreground">Government Hospital System</p>
+          <h1 className="text-lg font-bold text-foreground leading-tight">Pratham</h1>
+          <p className="text-xs text-muted-foreground">AI Triage System</p>
         </div>
       </div>
 

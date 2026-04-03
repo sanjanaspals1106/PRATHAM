@@ -1,7 +1,7 @@
 {
   "name": "vital-edge-backend",
   "version": "1.0.0",
-  "description": "AI-powered triage system backend for Vital Edge",
+  "description": "AI-powered triage system backend for Pratham",
   "main": "dist/server.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",

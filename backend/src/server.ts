@@ -36,7 +36,7 @@ app.get('/health', (req, res) => {
   res.json({
     status: 'healthy',
     timestamp: new Date().toISOString(),
-    service: 'Vital Edge Backend',
+    service: 'Pratham Backend',
     version: '1.0.0',
   });
 });
@@ -55,10 +55,10 @@ app.use(errorHandler);
 const PORT = env.PORT;
 
 app.listen(PORT, () => {
-  logger.info(`🚀 Vital Edge Backend running on port ${PORT}`);
+  logger.info(`🚀 Pratham Backend running on port ${PORT}`);
   logger.info(`📊 Environment: ${env.NODE_ENV}`);
   logger.info(`🔗 CORS enabled for: ${env.CORS_ORIGIN}`);
-  logger.info(`🏥 AI Triage System ready`);
+  logger.info(`🏥 Pratham ready`);
 });
 
 export default app;
