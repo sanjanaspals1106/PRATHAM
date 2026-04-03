@@ -1,5 +1,5 @@
 {
-  "name": "pratham_backend",
+  "name": "pratham",
   "version": "1.0.0",
   "description": "AI-powered triage system backend for Pratham",
   "main": "dist/src/server.js",

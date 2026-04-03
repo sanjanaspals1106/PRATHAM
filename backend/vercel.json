@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "name": "pratham-backend",
   "builds": [
     {
       "src": "api/index.ts",
